@@ -1,0 +1,2 @@
+# Preserve the exact study-source bytes for the checksum audit across platforms.
+analysis/*.py -text

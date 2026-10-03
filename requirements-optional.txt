@@ -1,0 +1,6 @@
+-r requirements.txt
+psutil==7.0.0
+Pillow==11.3.0
+lmoments3==1.0.8
+pyshp==2.3.1
+statsmodels==0.14.5

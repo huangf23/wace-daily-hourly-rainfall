@@ -1,0 +1,49 @@
+{
+  "01_AMS_and_GEV": [
+    "extract_ukcp18",
+    "audit_and_merge",
+    "fit_gev_periods",
+    "extract_calendar_day_historical",
+    "extract_calendar_day_future",
+    "gev_lmoments_kernel"
+  ],
+  "02_transfer_and_evaluation": [
+    "predict_transfer_regularized",
+    "evaluate_transfer_regularized",
+    "verify_transfer_regularized",
+    "compute_point_diagnostics_v3"
+  ],
+  "03_conditions_and_uncertainty": [
+    "compute_controls_v3",
+    "bootstrap_joint_v3",
+    "audit_uncertainty_v3",
+    "supplementary_diagnostics_v3",
+    "complete_submission_checks_wace",
+    "verify_fast_bootstrap_v3"
+  ],
+  "04_trends_and_engineering": [
+    "test_ams_trends_40yr",
+    "complete_trend_sensitivity_wace",
+    "summarize_trend_sensitivity_wace",
+    "engineering_design_diagnostics_wace",
+    "evaluate_fixed_uplifts_wace"
+  ],
+  "05_stations": [
+    "extract_midas7_whole_days",
+    "diagnose_midas7_whole_days",
+    "run_midas7_existing_trends",
+    "run_midas_station_transfer",
+    "bootstrap_midas_stations",
+    "report_midas_bootstrap",
+    "compute_station_sensitivity_v3",
+    "summarize_midas_station_transfer"
+  ],
+  "06_figures": [
+    "draw_research_v3",
+    "draw_supplement_v3",
+    "draw_visual_revision_wace",
+    "draw_focused_revision_wace",
+    "draw_submission_checks_wace",
+    "draw_narrative_labels_wace"
+  ]
+}
